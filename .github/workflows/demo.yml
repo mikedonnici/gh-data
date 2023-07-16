@@ -37,7 +37,7 @@ jobs:
             - name: Download artifacts
               uses: actions/download-artifact@v3
               with:
-                name: dist-file # matches name from above
+                name: dist-files # matches name from above
             - name: List contents
               run: ls
             - name: Deploy
